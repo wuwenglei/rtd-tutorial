@@ -39,7 +39,7 @@ For example:
         :type data: :term:`Pandas dataframe`
         :param str y: Name of the target variable.
 
-:py:func: 
+:py:func: `ImbalancedLearningRegression.ro.ro`
     def my_function(my_arg, my_other_arg):
         """A function just for me.
 
