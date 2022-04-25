@@ -32,8 +32,19 @@ For example:
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
 
-.. method:: ro(data, y, samp_method ="balance", drop_na_col =True, drop_na_row = True, replace = True, manual_perc = False, perc_o = -1, rel_thres = 0.5, rel_method = "auto", rel_xtrm_type = "both", rel_coef = 1.5, rel_ctrl_pts_rg = None) 
-    Random Over-sampling is an over-sampling method that synthesizes new samples by randomly copying minority samples.
-    :param data: Pandas dataframe, the dataset to re-sample.
-    :type data: :term:`Pandas dataframe`
-    :param str y: Name of the target variable.
+.. module:: ImbalancedLearningRegression.ro
+    .. method:: ro(data, y, samp_method ="balance", drop_na_col =True, drop_na_row = True, replace = True, manual_perc = False, perc_o = -1, rel_thres = 0.5, rel_method = "auto", rel_xtrm_type = "both", rel_coef = 1.5, rel_ctrl_pts_rg = None) 
+        Random Over-sampling is an over-sampling method that synthesizes new samples by randomly copying minority samples.
+        :param data: Pandas dataframe, the dataset to re-sample.
+        :type data: :term:`Pandas dataframe`
+        :param str y: Name of the target variable.
+
+:py:func: 
+    def my_function(my_arg, my_other_arg):
+        """A function just for me.
+
+        :param my_arg: The first of my arguments.
+        :param my_other_arg: The second of my arguments.
+
+        :returns: A message (just for me, of course).
+        """
